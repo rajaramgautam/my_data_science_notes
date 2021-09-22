@@ -1,0 +1,9 @@
+Try To Remember this
+
+select *
+from employees
+join salaries on salaries.emp_no = employees.emp_no;
+
+select *
+from employees
+join salaries using(emp_no);
